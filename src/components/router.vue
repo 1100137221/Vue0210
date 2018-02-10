@@ -9,6 +9,10 @@ import KeyboardEvent from '../components/KeyboardEvent.vue'
 import Computed from '../components/Computed.vue'
 import Watch from '../components/Watch.vue'
 import Style from '../components/Style.vue'
+import VIf from '../components/VIf.vue'
+import VFor from '../components/VFor.vue'
+import MonsterSlayer from '../components/MonsterSlayer/MonsterSlayer.vue'
+import Pratice from '../components/Pratice/Pratice.vue'
 
 Vue.use(VueRouter)
 
@@ -21,6 +25,11 @@ const routes = [
   { path: '/Computed', component: Computed },
   { path: '/Watch', component: Watch },
   { path: '/Style', component: Style },
+  { path: '/VIf', component: VIf },
+  { path: '/VFor', component: VFor },
+  { path: '/MonsterSlayer', component: MonsterSlayer },
+  { path: '/Pratice', component: Pratice }
+  
 ];
 
 const router = new VueRouter({

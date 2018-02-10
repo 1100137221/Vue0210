@@ -11,6 +11,10 @@
       <router-link to="/Computed">Example 6</router-link>
       <router-link to="/Watch">Example 7</router-link>
       <router-link to="/Style">Example 8</router-link>
+      <router-link to="/VIf">VIf</router-link>
+      <router-link to="/VFor">VFor</router-link>
+      <router-link to="/MonsterSlayer">MonsterSlayer</router-link>
+      <router-link to="/Pratice">Pratice</router-link>
     </p>
 
     <router-view></router-view>
